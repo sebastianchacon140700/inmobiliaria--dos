@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../estilos/inmobiliaria.css">
+    <title>casas</title>
+</head>
+
+
+<body id="grilla">
+    <header class="container">
+        <div id="haader" class="row">
+
+            <div class="col-12">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="../imagenes/casa-del-vector-logo-la-construccion-de-viviendas-y-el-simbolo-vector-logo-2a3x9nn.jpg" alt="Bootstrap" width="100" height="100"></a>
+                        <h1>casas</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="casa.html">casa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="departamentos.html">departamento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="alquileres.html">alquiler</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contactos.html">contactos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <h2>muestras</h2>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="../imagenes/gallery_1546548570_imagen-0.jpg" class="d-block w-100" alt="..." width="200" height="410">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../imagenes/gallery_1652107391_imagen-1.jpg" class="d-block w-100" alt="..." width="300" height="410">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../imagenes/53802537647777315010233429725977629422327804417083981967722924842936804104235--1.jpg" class="d-block w-100" alt="..." width="300" height="410">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <div class="row">
+            <div class="col-md-4" id="precios">
+                <div class="blog__post form-inline">
+                    <div class="blog__post__uno col-mb-3 w-100">
+                        <h3 class="selector" style="font-size: 1em">rango de precios</h3>
+                        <select class="cuestion__selection d-nome d-md-block" id="rango" size="5">
+                            <option value="200000"> Hasta u$d 200.000</option>
+                            <option value="599000">hasta u&#36;d 600000</option>
+                            <option value="600000">mas de u&#36;d 600000</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/54984712898586882573763240728886787171037557739814599588949281123377996791612.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 850000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en veta</strong>
+                                        <span>|</span>
+                                        <span> 3 dormitorios</span>
+                                        <span>|</span>
+                                        <span>5 baños</span>
+                                        <span>|</span>
+                                        <span> 350.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/61115908615001584718004494448412142589889297365437369215204619825992115646881--casa--2.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div>
+                                    u$s 650000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span> 3 dormitorios</span>
+                                        <span>|</span>
+                                        <span>4 baños</span>
+                                        <span>|</span>
+                                        <span> 493.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/111961148557157505924898634591178849126965068999808938388025104493485863923700--casa--3.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 630000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en veta</strong>
+                                        <span>|</span>
+                                        <span> 6 dormitorios</span>
+                                        <span>|</span>
+                                        <span>5 baños</span>
+                                        <span>|</span>
+                                        <span> 528.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/62955551564269469714704729698262217089656900486355011705495229961497981909885--casa--4.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 550000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span> 4 dormitorios</span>
+                                        <span>|</span>
+                                        <span>5 baños</span>
+                                        <span>|</span>
+                                        <span> 442.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/11741480693507169466562818517284658702391009935277020418871653559102487353412--casa--5.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 490000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span> 2 dormitorios</span>
+                                        <span>|</span>
+                                        <span>4 baños</span>
+                                        <span>|</span>
+                                        <span> 490.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/27068982746592002876057780555123012750101841318218455547260361132107760492492--casa--6.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 630000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span> 5 dormitorios</span>
+                                        <span>|</span>
+                                        <span>5 baños</span>
+                                        <span>|</span>
+                                        <span> 450.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/72461399391147227777042261825837666981296148866039553344971264928130630095364--casa--7.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 450000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span> 4 dormitorios</span>
+                                        <span>|</span>
+                                        <span>4 baños</span>
+                                        <span>|</span>
+                                        <span> 293.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/19570069840356791268855375843657376110843583876362247663301972229100387464585--casa--8.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 420000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span> 4 dormitorios</span>
+                                        <span>|</span>
+                                        <span>3 baños</span>
+                                        <span>|</span>
+                                        <span> 316.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/28800101219104163381949565887860496190281054345392259495783340883152529623991--casa--9.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 400000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span>4 dormitorios</span>
+                                        <span>|</span>
+                                        <span>4 baños</span>
+                                        <span>|</span>
+                                        <span> 275.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/7011278627032874855820251676518490821365533109460252570660860240838614995271--casa--10.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 395000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span>3 dormitorios</span>
+                                        <span>|</span>
+                                        <span>2 baños</span>
+                                        <span>|</span>
+                                        <span> 250.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/94289021737535829346830747787105852312534644568058181387705530827622402948159--casa--11.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 630000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span>4 dormitorios</span>
+                                        <span>|</span>
+                                        <span>4 baños</span>
+                                        <span>|</span>
+                                        <span>300.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" id="informacion">
+                        <h1>conoce Olivos Golf Club</h1>
+                        <h4>tradicional country con excelente acceso a la panamerica ramal norte</h4>
+
+                        <div class="propietarios__seccion">
+                            <div class="mt-3 ">
+                                <h2>te contamos un poco sobre el country</h2>
+                                <p>Con terrenos grandes e importantes arboledas, Olivos Golf Club es un lugar muy tranquilo para vivir y disfrutar de la naturaleza. El golf se destaca por ser el deporte principal del country. Tiene una escuela de golf de menores con el objetivo de incrementar la cantidad y el nivel de los menores golfistas. </p>
+
+
+                                <p>Olivos Golf Club fue fundado en 1926 y se consolida como Country Club en el año 1951. Es uno de los countries más tradicionales de la zona. Tiene una importante área deportiva compuesta por la cancha de golf, canchas de tenis, pileta olímpica y gimnasio. </p>
+                            </div>
+                        </div>
+                        <div class="propietario__seccion">
+                            <h2>servicios de olivos golf clud</h2>
+                            <div class="row mt-3">
+                                <div class="col-sm-12">
+                                    <div class="item">
+                                        <span class="fa fa-check" aria-hidden="true" id="check"></span>
+                                        gas natural
+                                    </div>
+                                    <div>
+                                        corriente elctrica
+                                    </div>
+                                    <div>agua corriente</div>
+                                    <div>cloaca</div>
+                                    <div>internet</div>
+                                </div>
+                                <div class="mt-5 mt-md-5">
+                                    <h2>infraestrutura </h2>
+                                    <div class="row mt-3">
+                                        <div class="col-sm-12">
+                                            <div>superficie de 135 hectareas</div>
+                                            <div>cancha de golf 27 hoyos</div>
+                                            <div>cancha de tenis</div>
+                                            <div>pileta olimpica</div>
+                                            <div>gimnasio</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-3">
+                <div>
+                    <img src="../imagenes/casa-del-vector-logo-la-construccion-de-viviendas-y-el-simbolo-vector-logo-2a3x9nn.jpg" alt="" style="max-width: 200px">
+                </div>
+                <div class="mt-2">
+                    <p class="fw-bold"> Edificio Bureau Pilar Sur 3º</p>
+
+                    <p class="fw-bold">Ruta Panamericana Ramal Pilar</p>
+
+                    <p class="fw-bold"> Buenos Aires, Argentina</p>
+                    <button type="button" class="bi bi-facebook" id="facebook" style="font-size: 28px;"></button>
+
+                    <button type="button" class="bi bi-whatsapp" id="whatsapp" style="font-size:28px;"></button>
+
+
+                    <button type="button" class="bi bi-twitter" id="twitter" style="font-size:28px; "></button>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3">
+                <div>
+                    <p class="fs-2 fw-bold">condominios</p>
+                    <ul class="fw-semibold fs-6" style="list-style: none;">
+                        <li>apartamentos las liebres</li>
+                        <li>carruajes:pilara</li>
+                        <li>civi tortuga</li>
+                        <li>condominios tortuga 1</li>
+                        <li>condominios tortuga 2</li>
+                        <li>club de campo</li>
+                        <li>Pueyrredon</li>
+                        <li>Loft en Ayres Vila</li>
+                        <li>Residences | Pilará</li>
+                        <li>Studios</li>
+                        <li>Oliden Joven</li>
+                        <li>Terrazas al Golf | Pilará</li>
+                        <li>Terrazas de Ayres</li>
+                        <li>Townhouses | Pilará</li>
+                        <li>Vilahaus</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div>
+                    <p class="fs-2 fw-bold">oficinas y lotes</p>
+                    <ul class="fw-semibold fs-6" style="list-style: none;">
+                        <li>Bureau</li>
+                        <li>Km40</li>
+                        <li>Meridiano Bussiness</li>
+                        <li>Center</li>
+                        <li>Paralelo 50</li>
+                        <li>Skyglass 1</li>
+                        <li>Skyglass 2</li>
+                        <li>Skyglass 3</li>
+                        <li>Studios</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div>
+                    <p class="fs-2 fw-bold">countris y barrios</p>
+                    <ul class="fw-semibold fs-6" style="list-style: none;">
+                        <li>Ayres Plaza</li>
+                        <li>Ayres de Pilar</li>
+                        <li>Azzurra Tortugas</li>
+                        <li>El Milagro</li>
+                        <li>El Olivar</li>
+                        <li>Estancias del Pilar</li>
+                        <li>Golf Club Argentino</li>
+                        <li>La Lomada</li>
+                        <li>Las Liebres</li>
+                        <li>Los Senderos I</li>
+                        <li>Martindale Country Club</li>
+                        <li>Olivos Golf Club</li>
+                        <li>Pilará</li>
+                        <li>Tilbury, Pilará</li>
+                        <li>San Jorge Village</li>
+                        <li>Tortugas Country Club</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>

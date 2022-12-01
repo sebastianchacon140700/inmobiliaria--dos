@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/inmobiliaria.css">
+    <title>inmobiliaria</title>
+</head>
+
+<body>
+    <header class="container">
+        <div id="haader" class="row">
+            <div class="col-12">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="../imagenes/casa-del-vector-logo-la-construccion-de-viviendas-y-el-simbolo-vector-logo-2a3x9nn.jpg" alt="Bootstrap" width="100" height="100"></a>
+                        <h1>inicio</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./paginas/casa.html">casa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./paginas/departamentos.html">departamento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./paginas/alquileres.html">alquiler</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">contactos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <h2>muestras</h2>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./imagenes/alquiler--12--.jpg" class="d-block w-100" alt="..." width="200" height="410">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imagenes/27068982746592002876057780555123012750101841318218455547260361132107760492492--casa--6.jpg" class="d-block w-100" alt="..." width="300" height="410">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imagenes/departamento--10--.jpg" class="d-block w-100" alt="..." width="300" height="410">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 style="text-align: center;">propiedades destacadas</h1>
+           <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/61115908615001584718004494448412142589889297365437369215204619825992115646881--casa--2.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div>
+                                    u$s 650000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en venta</strong>
+                                        <span>|</span>
+                                        <span> 3 dormitorios</span>
+                                        <span>|</span>
+                                        <span>4 baños</span>
+                                        <span>|</span>
+                                        <span> 493.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/departamento--1--.jpg" class="img-fluid rounded-start" id="departamento__presentacion" style="height: 250px" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">venta de departamento</h5>
+                                <p class="card-text">condominio las liebres</p>
+                                <span> u$s 650000</span>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <span>
+                                            <strong>en venta</strong>
+                                        </span>
+                                        <span>|</span>
+                                        <span>2 dormitorios</span>
+                                        <span>|</span>
+                                        <span>2 baños</span>
+                                        <span>|</span>
+                                        <span>100.00 m²</span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" id="precentacion">
+                    <img src="../imagenes/alquiler--1--.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">alquiler</h5>
+                        <span class="fs-4">u$s 500000</span>
+                        <p class="card-text fs-3">cochera subterranea y valcon</p>
+                        <p class="card-text fs-4">
+                            <small class="text-muted">
+                                <strong>en alquiler</strong>
+                                <span>/</span>
+                                <span>3 dormitorios</span>
+                                <span>/</span>
+                                <span>2 baños</span>
+                                <span>/</span>
+                                <span>se permiten mascotas</span>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/54984712898586882573763240728886787171037557739814599588949281123377996791612.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Casa en Venta en Olivos Golf Club</h5>
+                                <div> u$s 850000
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <strong>en veta</strong>
+                                        <span>|</span>
+                                        <span> 3 dormitorios</span>
+                                        <span>|</span>
+                                        <span>5 baños</span>
+                                        <span>|</span>
+                                        <span> 350.00 m² </span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;" id="precentacion">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../imagenes/departamento--3--.jpg" class="img-fluid rounded-start" id="departamento__presentacion" style="height: 250px" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">venta de departamento</h5>
+                                <p class="card-text">condominio las liebres</p>
+                                <p>departamento modulo 3-urdapilleta propiedades </p>
+                                <span> u$s 200000</span>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <span>
+                                            <strong>en venta</strong>
+                                        </span>
+                                        <span>|</span>
+                                        <span>2 dormitorios</span>
+                                        <span>|</span>
+                                        <span>2 baños</span>
+                                        <span>|</span>
+                                        <span>65.00 m²</span>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" id="precentacion">
+                    <img src="../imagenes/alquiler--4--.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">alquiler</h5>
+                        <span class="fs-4">u$s 150000</span>
+                        <p class="card-text fs-3"> valcon y parrila</p>
+                        <p class="card-text fs-4">
+                            <small class="text-muted">
+                                <strong>en alquiler</strong>
+                                <span>/</span>
+                                <span>3 dormitorios</span>
+                                <span>/</span>
+                                <span>1 baños</span>
+                                <span>/</span>
+                                <span>no se permiten mascotas</span>
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+</body></html>

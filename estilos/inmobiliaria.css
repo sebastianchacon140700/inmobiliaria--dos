@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+header {}
+
+.nav-link {
+    color: black;
+}
+
+#precios {
+    margin-top: 50px;
+}
+
+
+
+#rango {
+    overflow: hidden;
+    width: 100%;
+    padding: 5px;
+
+}
+
+#rango option {
+    font-size: 12pt;
+    border-radius: 5px;
+    width: 75%;
+    padding: 10px;
+}
+
+#precentacion {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#informacion {
+    margin-top: 50px;
+
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+#check {}
+
+
+lista__de__propiedades {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+inportante {
+    display: block;
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+}
+
+alquiler {
+    height: 340px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+.targeta__alquiler {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+
+
+
+
+texto {
+    font-size: 20px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align;
+}
+
+#footer{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+      
+
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}              
+li{
+    margin-bottom: 12px;
+}         
